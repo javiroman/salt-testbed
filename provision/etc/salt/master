@@ -1,0 +1,6 @@
+rest_cherrypy:
+    port: 8000
+    disable_ssl: True
+    log_access_file: /var/log/salt/api_access_file
+    log_error_file: /var/log/salt/api_error_file
+

@@ -1,0 +1,16 @@
+Command details {'fun': 'file.write', 
+'arg': [{'__kwarg__': True, 'path': '/home/vagrant/TEST', 'content': 'hello'}], 
+'tgt': ['master.salt.lan'], 'jid': '20220408053050801532', 'ret': '', 'tgt_type': 'list', 'user': 'javi'} 
+
+minion return: {'success': True, 'return': 'Wrote 0 lines to "/home/vagrant/TEST"', 
+'retcode': 0, 'jid': '20220408053050801532', 'fun': 'file.write', 'fun_args': [{'path': '/home/vagrant/TEST', 'content': 'hello'}]}
+
+Command details {'fun': 'file.write', 
+'arg': ['/tmp/somefile.txt', 'This is some example text\n\nwith newlines\n\nA\nB\nC'], 
+'tgt': '*', 'jid': '20220408053202095498', 'ret': '', 'tgt_type': 'glob', 'user': 'javi'}
+
+minion return: {'success': True, 'return': 'Wrote 1 lines to "/tmp/somefile.txt"', '
+retcode': 0, 'jid': '20220408053202095498', 'fun': 'file.write', 'fun_args': ['/tmp/somefile.txt', 'This is some example text\n\nwith newlines\n\n
+A\nB\nC']} '}
+
+
